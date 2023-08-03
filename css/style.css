@@ -194,11 +194,13 @@ nav ul li a.active{  color: rgb(248, 0, 0);  }
 
 .wrap-2 .text p {
     font-size: 60px;
+    font-weight: 400;
 }
 video{margin-top: -4px; }
 .video .text a {
-    color: #fff;
+    color: red;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .wrap-3 {
