@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" href="./images/jack.webp">
+    <link rel="icon" href="./images/jack.webp">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -423,7 +423,7 @@
                 <div class="col-6 col-t-12">
                     <form action="/">
                         <div class="row">
-                            <div class="col-8 "><input type="email" required placeholder="Enter your email here..." aria-label="Email"></div>
+                            <div class="col-8 "><input type="email" required placeholder="Enter your email here..." aria-label="Email" id="mail" name="message"></div>
                             <div class="col-4 "><button class="btn">Subscribe</button></div>
                         </div>
                     </form>
@@ -468,8 +468,8 @@
             </div>
            <form action="/">
                 <div class="row">
-                    <div class="col-4 col-t-6 col-p-12"><label><span class="fa fa-envelope"></span> EMAIL <input type="email" </label></div>
-                    <div class="col-4 col-t-6 col-p-12"><label><span class="fa fa-user"></span> NAME <input type="text" class="name-feild"></label></div> <span class="msg"></span>
+                    <div class="col-4 col-t-6 col-p-12"><label><span class="fa fa-envelope"></span> EMAIL <input type="email" id="mail" name="message"></label></div>
+                    <div class="col-4 col-t-6 col-p-12"><label><span class="fa fa-user"></span> NAME <input type="text" class="name-feild" id="text" name="name"></label></div> <span class="msg"></span>
                     <div class="col-8 col-t-12"><label><span class="fa fa-pencil"></span> MESSAGE <textarea rows="3" cols="40" ></textarea></label></div>
                     <div class="col-4 col-t-12"><button><span class="fa fa-check-circle-o"></span> Submit</button></div>
                 </div>
